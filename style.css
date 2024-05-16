@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(250, 215, 246);
+}
+.list{
+    margin: 10%;
+    padding: 5%;
+    background-color: rgb(245, 196, 255);
+    border-radius: 15%;
+}
+
+header h1{
+    text-align: center;
+    color: rgb(194, 82, 251);
+
+}
+
+.profile img{
+    width: 8%;
+    height: 8%;
+    margin-top: 11%;
+    margin-bottom: 5%;
+}
+
+.profile{
+    text-align: center;
+    display: flex;
+    font-family: 'Times New Roman';
+}
+
+ .profile p{
+    margin-left: 4px;
+    margin-top: 12%;
+    margin-bottom: -1%;
+ }
+
+
+
+.inputlist{
+   text-align: center;
+}
+
+.inputlist p{
+    text-align: left;
+    margin-left: 20%;
+    padding-top: 10px;
+}
+
+.inputlist input{
+    border: solid;
+    border-radius: 20px;
+    border-color: antiquewhite;
+}
+
+.inputlist button{
+    border-radius: 20px;
+    border: solid;
+    border-color: antiquewhite;
+}
+
+.todolist{
+    text-align: center;
+    margin-top: 40px;
+    background-color:rgb(251, 172, 255);
+    border-radius: 20px;
+}
+
+
+.todolist input{
+    width: 80%;
+    height: 40%;
+    border-radius: 20px;
+    border: solid;
+    border-color:antiquewhite;
+    margin-top: 4px; 
+    margin-bottom: 15px; 
+}
+
+.inputbutton{
+    text-align: center;
+    margin-top: 6px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    
+}
+
+.inputbutton .input{
+    background-color: rgb(179, 231, 247);
+    border-radius: 40%;
+    border-color:antiquewhite;
+    padding: 10px;
+    margin: 10px;
+}
+
+.inputbutton .delete{
+    background-color: rgb(252, 182, 182);
+    border-radius: 40%;
+    border-color: antiquewhite;
+    padding: 10px;
+    margin: 10px;
+}
+
+.inputbutton .update{
+    background-color: rgb(251, 251, 180);
+    border-radius: 40%;
+    border-color:antiquewhite;
+    padding: 10px;
+    margin: 10px;
+}
+
